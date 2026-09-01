@@ -1,6 +1,6 @@
-name: 'Podcast Generator'
+name: 'Podcast Generator from alipacala'
 description: 'Generates an iTunes/RSS compliant podcast XML feed from a YAML metadata file and updates the repository.'
-author: 'Ray Villalobos'
+author: 'Abraham Lipa Calabilla'
 
 branding:
   icon: 'git-branch'
