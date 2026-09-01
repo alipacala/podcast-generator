@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate Podcast Feed
-        uses: tu-usuario/podcast-generator@v1
+        uses: alipacala/podcast-generator@v1
         with:
           email: '${{ github.actor }}@users.noreply.github.com'
           name: '${{ github.actor }}'
