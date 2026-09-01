@@ -1,0 +1,21 @@
+name: 'Podcast Generator'
+description: 'Generates an iTunes/RSS compliant podcast XML feed from a YAML metadata file and updates the repository.'
+author: 'Ray Villalobos'
+
+branding:
+  icon: 'git-branch'
+  color: 'red'
+
+inputs:
+  email:
+    description: 'Committer email address'
+    required: false
+    default: '${{ github.actor }}@users.noreply.github.com'
+  name:
+    description: 'Committer user name'
+    required: false
+    default: '${{ github.actor }}'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
